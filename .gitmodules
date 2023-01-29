@@ -10,3 +10,6 @@
 [submodule "Services/Gefest-Vision.API-Gateway"]
 	path = Services/Gefest-Vision.API-Gateway
 	url = https://github.com/Gefest-Vision/Gefest-Vision.API-Gateway.git
+[submodule "Client/Gefest-Vision.MR-XR"]
+	path = Client/Gefest-Vision.MR-XR
+	url = https://github.com/Gefest-Vision/Gefest-Vision.MR-XR.git
