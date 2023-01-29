@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C0326A1C-025B-43A3-B76B-D1EABF4718BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gefest-Vision.Core", "Gefest-Vision.Core", "{9D2C9133-240F-4264-B1DA-87ED9065C1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest Vision.Contracts", "Domain\Gefest-Vision.Core\Gefest Vision.Contracts\Gefest Vision.Contracts.csproj", "{22CC99BB-6EB6-4133-9EDC-BB80859C10C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest Vision.Core", "Domain\Gefest-Vision.Core\Gefest Vision.Core\Gefest Vision.Core.csproj", "{D29EC29F-38A0-427B-8228-DE53D1A1BF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest Vision.Domain", "Domain\Gefest-Vision.Core\Gefest Vision.Domain\Gefest Vision.Domain.csproj", "{D03F8F44-C40C-475F-AD37-F960E273F0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3E239E23-0C8D-4A6F-B996-C894D50B02FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gefest-Vision.API-Gateway", "Gefest-Vision.API-Gateway", "{23371F6C-D2F0-4C8B-AD50-D569ABF34C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest-Vision.Gateway", "Services\Gefest-Vision.API-Gateway\Gefest-Vision.Gateway\Gefest-Vision.Gateway.csproj", "{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gefest-Vision.CalculationService", "Gefest-Vision.CalculationService", "{9ABF5E35-5A57-4A28-9006-AF57DD03FFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest-Vision.CalculationService", "Services\Gefest-Vision.CalculationService\Gefest-Vision.CalculationService\Gefest-Vision.CalculationService.csproj", "{1A1577A3-39A8-439F-9252-12D10E8791FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gefest-Vision.Monitor", "Gefest-Vision.Monitor", "{0F2AC0A5-E330-4F4C-95DE-16BFE21B94E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest-Vision.Monitor", "Services\Gefest-Vision.Monitor\Gefest-Vision.Monitor\Gefest-Vision.Monitor.csproj", "{58D04668-B10C-4779-B8DB-E462A104A81B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gefest-Vision.ProjectHolder", "Gefest-Vision.ProjectHolder", "{123317EF-4CB3-42B4-9066-305256432FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gefest-Vision.ProjectsHolder", "Services\Gefest-Vision.ProjectHolder\Gefest-Vision.ProjectsHolder\Gefest-Vision.ProjectsHolder.csproj", "{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CC99BB-6EB6-4133-9EDC-BB80859C10C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CC99BB-6EB6-4133-9EDC-BB80859C10C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CC99BB-6EB6-4133-9EDC-BB80859C10C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CC99BB-6EB6-4133-9EDC-BB80859C10C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29EC29F-38A0-427B-8228-DE53D1A1BF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29EC29F-38A0-427B-8228-DE53D1A1BF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29EC29F-38A0-427B-8228-DE53D1A1BF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29EC29F-38A0-427B-8228-DE53D1A1BF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03F8F44-C40C-475F-AD37-F960E273F0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03F8F44-C40C-475F-AD37-F960E273F0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03F8F44-C40C-475F-AD37-F960E273F0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03F8F44-C40C-475F-AD37-F960E273F0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1577A3-39A8-439F-9252-12D10E8791FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1577A3-39A8-439F-9252-12D10E8791FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1577A3-39A8-439F-9252-12D10E8791FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1577A3-39A8-439F-9252-12D10E8791FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D04668-B10C-4779-B8DB-E462A104A81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D04668-B10C-4779-B8DB-E462A104A81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D04668-B10C-4779-B8DB-E462A104A81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D04668-B10C-4779-B8DB-E462A104A81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D2C9133-240F-4264-B1DA-87ED9065C1CC} = {C0326A1C-025B-43A3-B76B-D1EABF4718BC}
+		{22CC99BB-6EB6-4133-9EDC-BB80859C10C3} = {9D2C9133-240F-4264-B1DA-87ED9065C1CC}
+		{D29EC29F-38A0-427B-8228-DE53D1A1BF02} = {9D2C9133-240F-4264-B1DA-87ED9065C1CC}
+		{D03F8F44-C40C-475F-AD37-F960E273F0B7} = {9D2C9133-240F-4264-B1DA-87ED9065C1CC}
+		{23371F6C-D2F0-4C8B-AD50-D569ABF34C1A} = {3E239E23-0C8D-4A6F-B996-C894D50B02FD}
+		{29E415D7-FA06-45E1-AAE3-E3CADF2F0D2D} = {23371F6C-D2F0-4C8B-AD50-D569ABF34C1A}
+		{9ABF5E35-5A57-4A28-9006-AF57DD03FFD1} = {3E239E23-0C8D-4A6F-B996-C894D50B02FD}
+		{1A1577A3-39A8-439F-9252-12D10E8791FD} = {9ABF5E35-5A57-4A28-9006-AF57DD03FFD1}
+		{0F2AC0A5-E330-4F4C-95DE-16BFE21B94E3} = {3E239E23-0C8D-4A6F-B996-C894D50B02FD}
+		{58D04668-B10C-4779-B8DB-E462A104A81B} = {0F2AC0A5-E330-4F4C-95DE-16BFE21B94E3}
+		{123317EF-4CB3-42B4-9066-305256432FC9} = {3E239E23-0C8D-4A6F-B996-C894D50B02FD}
+		{E1621CD4-CBCC-44A6-8F75-9D84CA8387FE} = {123317EF-4CB3-42B4-9066-305256432FC9}
+	EndGlobalSection
+EndGlobal

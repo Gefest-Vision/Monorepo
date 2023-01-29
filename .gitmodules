@@ -1,0 +1,12 @@
+[submodule "Services/Gefest-Vision.CalculationService"]
+	path = Services/Gefest-Vision.CalculationService
+	url = https://github.com/Gefest-Vision/Gefest-Vision.CalculationService.git
+[submodule "Services/Gefest-Vision.Monitor"]
+	path = Services/Gefest-Vision.Monitor
+	url = https://github.com/Gefest-Vision/Gefest-Vision.Monitor.git
+[submodule "Services/Gefest-Vision.ProjectHolder"]
+	path = Services/Gefest-Vision.ProjectHolder
+	url = https://github.com/Gefest-Vision/Gefest-Vision.ProjectHolder.git
+[submodule "Services/Gefest-Vision.API-Gateway"]
+	path = Services/Gefest-Vision.API-Gateway
+	url = https://github.com/Gefest-Vision/Gefest-Vision.API-Gateway.git
