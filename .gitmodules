@@ -13,3 +13,6 @@
 [submodule "Client/Gefest-Vision.MR-XR"]
 	path = Client/Gefest-Vision.MR-XR
 	url = https://github.com/Gefest-Vision/Gefest-Vision.MR-XR.git
+[submodule "Libraries/ParaUnity"]
+	path = Libraries/ParaUnity
+	url = https://github.com/Gefest-Vision/ParaUnity.git
